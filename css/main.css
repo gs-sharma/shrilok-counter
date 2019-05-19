@@ -1295,9 +1295,16 @@ input::-moz-focus-inner {
 
 .home-content__main {
   max-width: 1400px;
-  padding-top: 15rem;
+  padding-top: 0 rem;
   position: relative;
   overflow: hidden;
+}
+
+@media(max-width: 991px)
+{
+    .home-content__main{
+        padding-top: 15rem;
+    }
 }
 
 .home-content__text p {
