@@ -1104,7 +1104,7 @@ input::-moz-focus-inner {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/UmaidBhawan_Exterior_1.jpg);
+  background-image: url(../images/1.jpeg);
 }
 
 .s-home--static::before {
@@ -1527,9 +1527,9 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .home-copyright {
   z-index: 502;
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 1.8;
-  color: rgba(255, 255, 255, 0.2);
+  color: whitesmoke;
   padding: 30px 60px 42px;
   position: absolute;
   left: 0;
