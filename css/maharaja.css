@@ -1,0 +1,61 @@
+@media(max-width:992px){
+    .navbar1{
+        background-color: azure !important;
+        color: black;
+        margin-top: 25px;
+    }
+}
+
+/*Banner start*/
+.top-banner {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.overlay1 {
+    height: 472px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.logo-image1 {
+    height: 125px;
+}
+
+.banner-heading {
+    margin-top: 8rem;
+
+}
+.banner-heading h{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 50px;
+    
+}
+
+/*Banner ends*/
+
+/*Navbar*/
+.navbar1 {
+    background-color: transparent;
+}
+
+.nav-link {
+    color: #3B3E47;
+    font-size: 25px;
+    font-family: 'Playfair Display SC', serif;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    margin-top: 0px;
+    
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.active a {
+    color: black !important;
+}
+
+/*navbar ends*/

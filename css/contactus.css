@@ -1,0 +1,243 @@
+@media(max-width:992px){
+    .navbar{
+        background-color: azure !important;
+        color: black;
+        margin-top: 25px;
+    }
+}
+
+@media(max-width:630px){
+    .contact{
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-top: 4rem !important;
+}
+}
+
+/*contact images*/
+.img-1{
+  
+    background-image: url(../images/contact/img1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.img-2{
+  
+    background-image: url(../images/contact/img2.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.img-3{
+  
+    background-image: url(../images/contact/img3.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.img-4{
+  
+    background-image: url(../images/contact/img4.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.img-inner{
+    
+   min-height: 240px;
+}
+
+
+
+
+/*insta feed*/
+.insta-feed{
+    max-height:345px; 
+    overflow-y: scroll;
+}
+/*Banner Ends*/
+.top-banner {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 60vh;
+}
+
+.overlay {
+    height: 472px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.logo-image {
+    height: 125px;
+}
+
+.banner-heading {
+    margin-top: 8rem;
+
+}
+.banner-heading h{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 50px;
+    
+}
+
+/*Banner ends*/
+
+/*Navbar*/
+.navbar {
+    background-color: transparent;
+}
+
+.nav-link {
+    color: #3B3E47;
+    font-size: 25px;
+    font-family: 'Playfair Display SC', serif;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    margin-top: 0px;
+    
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.active a {
+    color: black !important;
+}
+
+/*navbar ends*/
+
+/* contact start*/
+.contact{
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 6rem !important;
+}
+/*contact ends*/
+
+/*section-3 starts*/
+.section3 h2{
+    font-family: 'Roboto', sans-serif;
+    color: #3B3E47;
+    font-weight: 500;
+    font-size: 34px;
+}
+
+
+.section3 p{
+    color: #626570;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+/*section-4 starts*/
+
+.form{
+    background-image: url(../images/contact/contact-bg.jpg);
+     background-size: cover;
+    padding-left: 140px;
+    height: 500px;
+}
+.form h4{
+    color: white;
+}
+.input{
+    background: none;
+    border: solid 2px #7e7e7f;
+    color: #7e7e7f;
+    width: 264px;
+}
+.form textarea{
+    background: none;
+    border: solid 2px #7e7e7f;
+    color: #7e7e7f;
+    width: 540px;
+}
+.form button{
+    background-color: #54675c;
+    border: none;
+    color: honeydew;
+    margin-left: 400px;
+}
+.form button:hover{
+    background-color: #696b72;
+}
+/*section-4 ends*/
+
+
+/*media query*/
+
+@media(max-width: 1407px){
+    .form{
+        text-align: center;
+        padding: 15px 20px 0px 20px;
+     }
+    .input{
+        width: 264px;
+    }
+    .form textarea{
+        height: 150px;
+    }
+}
+
+@media(max-width: 1177px){
+    .input{
+        width: 364px;
+    }
+    .form textarea{
+        width: 364px;
+        height: 100px;
+    }
+    .form button{
+        margin-left: 230px;
+    }
+}
+
+@media(max-width: 838px){
+    .input{
+        width: 264px;
+    }
+    .form textarea{
+        width: 264px;
+    }
+    .form button{
+        margin-left: 130px;
+    }
+}
+@media(max-width: 768px){
+    .form textarea{
+        width: 535px;
+    }
+    .form button{
+        margin-left: 400px;
+    }
+}
+@media(max-width: 589px){
+    .input{
+        width: 364px;
+    }
+    .form textarea{
+        width: 364px;
+    }
+    .form button{
+        margin-left: 230px;
+    }
+}
+@media(max-width: 403px)
+{
+    .input{
+        width: 264px;
+    }
+    .form textarea{
+        width: 264px;
+    }
+    .form button{
+        margin-left: auto
+    }
+}
